@@ -11,4 +11,4 @@
 
 # plan files
 /plans/*
-*.backend.tf
+backend.tf
