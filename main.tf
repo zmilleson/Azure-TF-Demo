@@ -5,7 +5,7 @@ provider "azurerm" {
 
 # Resources
 resource "azurerm_resource_group" "main" {
-    name        = "${var.namePrefix}-rg"
+    name        = "${var.namePrefix}-demo"
     location    = "${var.region}"
 
     tags {
