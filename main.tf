@@ -3,10 +3,6 @@ provider "azurerm" {
     version = "= 1.21"
 }
 
-/*terraform {
-    required_version = "< 0.11.7"
-}*/
-
 # Resources
 resource "azurerm_resource_group" "main" {
     name        = "${var.namePrefix}-rg"
